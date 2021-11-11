@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Grupo 10</string>
+    <string name="txt_jugar">JUGAR</string>
+    <string name="txt_perfil">PERFIL</string>
+    <string name="txt_ajustes">AJUSTES</string>
+    <string name="txt_acerca_de">ACERCA DE</string>
+    <string name="txt_btnjugar">Le he dado al boton JUGAR</string>
+    <string name="txt_usuario">USUARIO</string>
+    <string name="txt_contrasena">CONTRASEÑA</string>
+    <string name="txt_login">INICIAR SESION</string>
+    <string name="txt_registro">REGISTRO</string>
+
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string-array name="categorias">
+        <item>Futbol</item>
+        <item>Baloncesto</item>
+        <item>Tenis</item>
+        <item>Natacion</item>
+        <item>Beisbol</item>
+        <item>Carreras</item>
+    </string-array>
+</resources>
