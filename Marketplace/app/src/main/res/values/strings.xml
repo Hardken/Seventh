@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Marketplace_G7</string>
     <string name="titulo1">Inicio de Sesion</string>
-    <string name="correo">Correo Electronico</string>
-    <string name="contrasena">Contraseña</string>
+    <string name="correo">Correo Electronico:</string>
+    <string name="contrasena">Contraseña:</string>
+    <string name="Iniciar">Iniciar Sesion</string>
 </resources>

@@ -5,57 +5,79 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:orientation="vertical">
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_height="350dp"
             android:contentDescription="Logo"
-            android:src="">
+            android:src="@drawable/LOGO">
 
         </ImageView>
 
     </LinearLayout>
 
-
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:gravity="center"
-        >
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="25dp"
+        android:orientation="vertical">
 
-    <TextView
+        <TextView
 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/correo" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"
+            android:text="@string/titulo1" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="ejemplo@correo">
+        <TextView
 
-    </EditText>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/correo" />
 
-    <TextView
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ejemplo@correo">
 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/contrasena" />
+        </EditText>
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="*********">
+        <TextView
 
-    </EditText>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contrasena" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="*********">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Iniciar"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"/>
+
     </LinearLayout>
 
 </LinearLayout>
