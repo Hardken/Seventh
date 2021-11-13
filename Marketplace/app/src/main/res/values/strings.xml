@@ -4,4 +4,20 @@
     <string name="correo">Correo Electronico:</string>
     <string name="contrasena">Contraseña:</string>
     <string name="Iniciar">Iniciar Sesion</string>
+    <string name="Pol">Politica, terminos y condiciones</string>
+    <string name="Pol2">DeTurismo.com es la aplicación para ofrecer (Vender) y/o demandar (Adquirir) serviviso turisticos,creada por el Grupo 7. Antes de acceder a ella debes saber que tendrás que llenar un formulario con datos básicos, además para usar la app DEBES PERMITIR el acceso automático a la cámara y la galería fotográfica de tu dispositivo móvil. Todos los productos ofrecidos en la aplicación tienen un costo que deberá cancelar electrónicamente en el caso de desear adquirirlos.</string>
+    <string name="Pol_Acepta">Si, he Leido y acepto</string>
+    <string name="Pol_No_Acepta">No acepto</string>
+    <string name="Registra">Registrarme</string>
+    <string name="title_activity_menu_actividad">MenuActividad</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
 </resources>

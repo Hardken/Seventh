@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -69,14 +68,20 @@
         </EditText>
 
         <Button
-            android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/Iniciar"
             android:layout_marginStart="45dp"
             android:layout_marginEnd="45dp"
-            android:layout_marginBottom="25dp"
             android:layout_marginTop="25dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Registra"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="25dp"
+            />
 
     </LinearLayout>
 
